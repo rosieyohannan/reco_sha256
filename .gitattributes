@@ -1,0 +1,2 @@
+# reco.yml line endings need to be forced to be LF (0x0A)
+reco.yml text eol=lf
