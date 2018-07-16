@@ -8,9 +8,8 @@ import (
 	// import the entire framework (including bundled verilog)
 	_ "github.com/ReconfigureIO/sdaccel"
 
+	"github.com/rosieyohannan/crypto/sha256"
 	// Use the new SMI protocol package
-	"crypto/sha256"
-
 	"github.com/ReconfigureIO/sdaccel/smi"
 )
 

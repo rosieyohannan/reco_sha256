@@ -7,14 +7,15 @@ package main
 
 import (
 	"bytes"
-	"crypto/sha256"
-	"crypto/sha256/host"
 	"encoding/binary"
 	"encoding/hex"
 	"fmt"
 	"log"
 	"sync"
 	"testing"
+
+	"github.com/rosieyohannan/crypto/sha256"
+	"github.com/rosieyohannan/crypto/sha256/host"
 )
 
 func TestMain(t *testing.T) {
