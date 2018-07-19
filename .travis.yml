@@ -1,0 +1,11 @@
+language: go
+go_import_path: github.com/foolmarks/reco_sha256
+go:
+  - 1.9
+install:
+- curl -LO https://s3.amazonaws.com/reconfigure.io/reco/releases/reco-v0.5.2-x86_64-linux.zip
+- unzip reco-v0.5.2-x86_64-linux.zip
+- sudo mv reco /usr/local/bin
+script:
+  - go test github.com/foolmarks/reco_sha256
+  -
